@@ -21,7 +21,7 @@ npm run build --report
 ## 遇到的问题及解决方法
 * 支持less
 >   安装less less-loader style-loader
-    <style lang="less" scoped>
+>    <style lang="less" scoped>
     webpack.base.conf.js
     {
         test: /\.less$/,
@@ -29,6 +29,6 @@ npm run build --report
         include: []
     }
 * 在style里导入less文件
-    include: []
+>    include: []
     @import './style/common';
   
